@@ -1,0 +1,168 @@
+/*Variables*/
+
+$breakpoint-mobile-xl: 525px;
+$breakpoint-mobile-l: 425px;
+$light-gray: #e6e6e6;
+$nearly-black: #212529;
+$gray: #7e7e7e;
+
+/* Fonts */
+
+@font-face {
+    font-family: "PoppinsRegular";
+    src: local("PoppinsRegular"), url('./assets/fonts/Poppins-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "PoppinsSemiBold";
+    src: local("PoppinsSemiBold"), url('./assets/fonts/Poppins-SemiBold.ttf') format("truetype");
+}
+
+
+/* Input placeholder font family and size change*/
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    font-size: 0.75rem;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    font-size: 0.75rem;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    font-size: 0.75rem;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    font-size: 0.75rem;
+}
+
+
+/*Some global/generic elements/values*/
+
+body {
+    font-family: "PoppinsRegular";
+}
+
+a {
+    color: $nearly-black;
+    font-weight: 700;
+    transition: color 1s ease-in;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #1ccfc9;
+}
+
+.btn {
+    border-radius: 0;
+    font-size: 0.75rem;
+}
+
+.date {
+    padding-top: 10px;
+    font-size: 12px;
+    color: #818181;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.load-more-wrapper {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-control:focus {
+    outline: none;
+    border: 0;
+    box-shadow: none;
+    border-bottom: 1px solid $light-gray;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1330px;
+    }
+}
+
+
+/*Header*/
+
+.header {
+    border-bottom: 1px solid $light-gray;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    .container {
+        display: flex;
+    }
+}
+
+
+/*Search form*/
+
+.form-search {
+    width: 60%;
+    margin: auto;
+    @media screen and (max-width: $breakpoint-mobile-xl) {
+        width: 80%;
+    }
+    input {
+        height: 2rem;
+        border: 0;
+        text-align: center;
+        border-bottom: 1px solid $light-gray;
+    }
+}
+
+
+/*Movie card*/
+
+.col-card {
+    margin-bottom: 40px;
+    .card-img-top {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 0;
+    }
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        font-family: "PoppinsRegular";
+        color: $gray;
+        font-size: 14px;
+        padding: 15px;
+        .card-title {
+            font-family: 'PoppinsSemiBold';
+            color: $nearly-black;
+        }
+        .rating {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .avg-rating {
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+
+/*Footer*/
+
+.footer {
+    background-color: $nearly-black;
+    color: #fff;
+    margin-top: 40px;
+    .main-section {
+        padding: 75px 0;
+        text-align: center;
+    }
+}

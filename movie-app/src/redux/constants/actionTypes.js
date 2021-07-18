@@ -1,0 +1,5 @@
+export const ActionTypes = {
+    SET_MOVIES: "SET_MOVIES",
+    SET_TVSHOWS: "SET_TVSHOWS",
+    SEARCH_MOVIES: "SEARCH_MOVIES"
+}
