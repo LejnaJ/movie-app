@@ -5991,11 +5991,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ina\\source\\repos\\TestAPI\\TestAPI\\TestAPI.csproj",
+      "projectUniqueName": "E:\\mistraltest\\movie-app\\movie-api\\TestAPI\\TestAPI.csproj",
       "projectName": "TestAPI",
-      "projectPath": "C:\\Users\\Ina\\source\\repos\\TestAPI\\TestAPI\\TestAPI.csproj",
+      "projectPath": "E:\\mistraltest\\movie-app\\movie-api\\TestAPI\\TestAPI.csproj",
       "packagesPath": "C:\\Users\\Ina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ina\\source\\repos\\TestAPI\\TestAPI\\obj\\",
+      "outputPath": "E:\\mistraltest\\movie-app\\movie-api\\TestAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ina\\AppData\\Roaming\\NuGet\\NuGet.Config",

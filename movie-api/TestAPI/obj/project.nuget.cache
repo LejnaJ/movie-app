@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sXW8w0FMmWeTERO3w5v6xCW8VMmwCV4unl/DVA7RQFD/eE/0Ih5y0btnShcjYueYFwJmLqiB2lejjKT9q0SeoQ==",
+  "dgSpecHash": "W2nvYiCCEsVXG25JEKnuup5uBcWa2rYYnPRIfwDZFpAZTJta8Yz3z52gSi18kQQXIliaAqogVtIt/t3vdAuZWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ina\\source\\repos\\TestAPI\\TestAPI\\TestAPI.csproj",
+  "projectFilePath": "E:\\mistraltest\\movie-app\\movie-api\\TestAPI\\TestAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ina\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Ina\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

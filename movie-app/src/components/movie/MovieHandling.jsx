@@ -94,7 +94,7 @@ function Main() {
             <Tabs defaultActiveKey="movies" className="mb-3" onSelect={ToggleMovie}>
                 <Tab eventKey="movies" title="Movies">
                     {(movies.length > 0 ?
-                        <Row className="row-cols-2  row-cols-md-3 row-cols-lg-5 row-cols-xl-5">
+                        <Row className="row-cols-1  row-cols-md-3 row-cols-lg-5 row-cols-xl-5">
                             <MovieList key={1} />
                         </Row>
                         :
@@ -115,7 +115,7 @@ function Main() {
                 <Tab eventKey="tvshow" title="TV Show" >
 
                     {(movies.length > 0 ?
-                        <Row className="row-cols-2  row-cols-md-3 row-cols-lg-5 row-cols-xl-5">
+                        <Row className="row-cols-1  row-cols-md-3 row-cols-lg-5 row-cols-xl-5">
                             <MovieList key={2} />
                         </Row>
                         :
